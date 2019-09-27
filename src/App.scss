@@ -1,0 +1,27 @@
+// .c-main {
+//   display: grid;
+//   grid-template-columns: 1fr repeat(6, minmax(auto, 10em)) 1fr;
+//   grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
+// }
+
+
+
+.c-main {
+  box-sizing: border-box;
+}
+
+.c-container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#postings {
+  min-height: 100vh;
+  background-color: white;
+}
+
+/* @media (max-width: 1366px) {
+  .c-main {
+    width: 
+  }
+} */
